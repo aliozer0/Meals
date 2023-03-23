@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
-import './models/meal.dart';
+
 import './models/category.dart';
+import './models/meal.dart';
 
 const DUMMY_CATEGORIES = const [
   Category(
@@ -55,6 +56,7 @@ const DUMMY_CATEGORIES = const [
   ),
 ];
 
+// ignore: unnecessary_const
 const DUMMY_MEALS = const [
   Meal(
     id: 'm1',
